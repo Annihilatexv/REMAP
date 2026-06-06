@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+.mypy_cache/
+# VS Code
+.vscode/
+.idea/
+# Conda / venv
+.env/
+.venv/
+conda-env/
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+# Datasets
+data/*.json
+data/*.jsonl
+data/*.parquet
+data/*.arrow
+data/wikitext2/
+data/c4/
+data/*.lock
+newpipline.sh
+scripts/gen_manual_configs.py
+scripts/generate_nas_bud_config.py
+
+# # Logs & outputs
+analysis/
+output_deepseek_verify/
+hgp_logs/
+output/
+outputs/
+outputc/
+pruned_data/
+diep_main/
+framework.png
+result_convert.ipynb
+pipeline.sh
+train.sbatch
+env_construction.sh
+*.ipynb
+# outputs/
+# runs/
+lm_eval/
+lm_eval-bk/
+lm-evaluation-harness/
+hails/
+hails-bk/
+bk.sh
+verify_deepseek.sh
+
+data/train-00000-of-00001-7320a6f3aba8ebd2.parquet
+*.sh
+ER.tex
+scripts/layer_sensitivity_probe_cos.py
+scripts/layer_sensitivity_probe.py
+pruned_data/*/*.log
+pruned_data/*.log
+.agents
+.codex/
+.matplotlib_cache/
+*/.DS_Store
+*.DS_Store
+*.log
+*.out
